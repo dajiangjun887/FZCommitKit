@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FZCommitKit_Example' do
+  pod 'FZCommitKit', :path => '../'
+
+  target 'FZCommitKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
