@@ -22,19 +22,18 @@ extension NibLoadable where Self : UIView {
 extension UIView {
     
     // 设置圆角
-    public func fz_SetCornersRadius(_ view: UIView!, radius: CGFloat, roundingCorners: UIRectCorner) {
-        guard view != nil else { return }
-        let maskPath = UIBezierPath(roundedRect: view.bounds, byRoundingCorners: roundingCorners, cornerRadii: CGSize(width: radius, height: radius))
+    public func fz_SetCornersRadius(radius: CGFloat, roundingCorners: UIRectCorner) {
+        let maskPath = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: roundingCorners, cornerRadii: CGSize(width: radius, height: radius))
         let maskLayer = CAShapeLayer()
-        maskLayer.frame = view.bounds
+        maskLayer.frame = self.bounds
         maskLayer.path = maskPath.cgPath
         maskLayer.shouldRasterize = true
         maskLayer.rasterizationScale = UIScreen.main.scale
-        view.layer.mask = maskLayer
+        self.layer.mask = maskLayer
     }
     
     // 设置圆角和阴影
-    public func fz_SetShadowWithCornerRadius(cornerRadius:  CGFloat, shadowColor: UIColor, shadowOffset: CGSize = .zero, shadowOpacity: Float = 1, shadowRadius: CGFloat) {
+    public func fz_SetShadowWithCornerRadius(cornerRadius: CGFloat, shadowColor: UIColor, shadowOffset: CGSize = .zero, shadowOpacity: Float = 1, shadowRadius: CGFloat) {
         layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius).cgPath
         layer.cornerRadius = cornerRadius
         layer.shadowColor = shadowColor.cgColor
