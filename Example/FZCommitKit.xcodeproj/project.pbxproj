@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ACC1E001110C2ACE43DF84F /* FZCommitKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZCommitKit.podspec; path = ../FZCommitKit.podspec; sourceTree = "<group>"; };
+		1ACC1E001110C2ACE43DF84F /* FZCommitKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZCommitKit.podspec; path = ../FZCommitKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2756DDEE15404901397AAB65 /* Pods_FZCommitKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZCommitKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE3151161E51E2049C2C818 /* Pods_FZCommitKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZCommitKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FZCommitKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZCommitKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* FZCommitKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCommitKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AB837B33B992A497C46D3AE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D920C002FD95DA77AA2B6087 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AB837B33B992A497C46D3AE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D920C002FD95DA77AA2B6087 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D967FE844D654C2036E1D888 /* Pods-FZCommitKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCommitKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FZCommitKit_Tests/Pods-FZCommitKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBAAF4E75D21B12EF3A5E7A5 /* Pods-FZCommitKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCommitKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZCommitKit_Tests/Pods-FZCommitKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE4441061A4659F3915D0970 /* Pods-FZCommitKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCommitKit_Example.release.xcconfig"; path = "Target Support Files/Pods-FZCommitKit_Example/Pods-FZCommitKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				D967FE844D654C2036E1D888 /* Pods-FZCommitKit_Tests.debug.xcconfig */,
 				DBAAF4E75D21B12EF3A5E7A5 /* Pods-FZCommitKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -292,10 +292,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FZCommitKit_Example/Pods-FZCommitKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FZCommitKit/FZCommitKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FZCommitKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
