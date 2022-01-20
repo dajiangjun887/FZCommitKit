@@ -1,5 +1,5 @@
 PODS:
-  - FZCommitKit (0.0.2):
+  - FZCommitKit (0.0.3):
     - SwifterSwift
   - SwifterSwift (5.1.0):
     - SwifterSwift/AppKit (= 5.1.0)
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZCommitKit: 77cb284ed893de69f0da76026b4646fe01bd488d
+  FZCommitKit: e384b295d24ef7d6e993b8835ad703c71ca3482d
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
 
 PODFILE CHECKSUM: 0dcf3f2b343b66d2a7bf6438e90135bd3ca1a52e
