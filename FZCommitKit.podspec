@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZCommitKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '工具类库 FZCommitKit.'
   s.swift_version    = ['4.0', '4.2', '5.0']
 
