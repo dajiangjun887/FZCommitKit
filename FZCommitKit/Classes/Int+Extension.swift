@@ -29,9 +29,9 @@ public extension Int {
         return String(format: "%.f", CGFloat(self) / 100.0)
     }
     
-    var price: CGFloat {
-        return self.priceStr.cgFloat() ?? 0
-    }
+//    var price: CGFloat {
+//        return self.priceStr.cgFloat() ?? 0
+//    }
     
     
     /// 转换万的单位

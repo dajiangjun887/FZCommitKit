@@ -1,5 +1,5 @@
 PODS:
-  - FZCommitKit (0.0.6)
+  - FZCommitKit (0.0.7)
 
 DEPENDENCIES:
   - FZCommitKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZCommitKit: 4447d1db419d3f6359e5f1582c4407e8d80c3acd
+  FZCommitKit: 48ad5a15d25a94e474caf235cda7d7faaf9f587e
 
 PODFILE CHECKSUM: 9714e9f5ad6e0f000b315c2d48109448651b3d55
 
