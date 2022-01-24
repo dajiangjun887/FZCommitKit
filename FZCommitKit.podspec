@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZCommitKit'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = '工具类库 FZCommitKit.'
   s.swift_version    = ['4.0', '4.2', '5.0']
 
@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'SwifterSwift'
+#   s.dependency 'SwifterSwift'
 end

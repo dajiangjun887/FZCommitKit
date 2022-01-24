@@ -1,42 +1,15 @@
 PODS:
-  - FZCommitKit (0.0.5):
-    - SwifterSwift
-  - SwifterSwift (5.1.0):
-    - SwifterSwift/AppKit (= 5.1.0)
-    - SwifterSwift/CoreGraphics (= 5.1.0)
-    - SwifterSwift/CoreLocation (= 5.1.0)
-    - SwifterSwift/Dispatch (= 5.1.0)
-    - SwifterSwift/Foundation (= 5.1.0)
-    - SwifterSwift/MapKit (= 5.1.0)
-    - SwifterSwift/SceneKit (= 5.1.0)
-    - SwifterSwift/SpriteKit (= 5.1.0)
-    - SwifterSwift/SwiftStdlib (= 5.1.0)
-    - SwifterSwift/UIKit (= 5.1.0)
-  - SwifterSwift/AppKit (5.1.0)
-  - SwifterSwift/CoreGraphics (5.1.0)
-  - SwifterSwift/CoreLocation (5.1.0)
-  - SwifterSwift/Dispatch (5.1.0)
-  - SwifterSwift/Foundation (5.1.0)
-  - SwifterSwift/MapKit (5.1.0)
-  - SwifterSwift/SceneKit (5.1.0)
-  - SwifterSwift/SpriteKit (5.1.0)
-  - SwifterSwift/SwiftStdlib (5.1.0)
-  - SwifterSwift/UIKit (5.1.0)
+  - FZCommitKit (0.0.6)
 
 DEPENDENCIES:
   - FZCommitKit (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SwifterSwift
 
 EXTERNAL SOURCES:
   FZCommitKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZCommitKit: 8696f27c35970ecba23757aed88ffd5a7acceca4
-  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
+  FZCommitKit: 4447d1db419d3f6359e5f1582c4407e8d80c3acd
 
 PODFILE CHECKSUM: 9714e9f5ad6e0f000b315c2d48109448651b3d55
 

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SwifterSwift
 /// 自定义log
 ///
 /// - Parameters:
@@ -103,13 +102,6 @@ public func fz_printMethods(_ aClass: AnyClass) {
     }
     free(methods)
     FZLog("结束打印 =======")
-}
-
-public func fz_hexStringColor(hexString: String, transparency: CGFloat = 1) -> UIColor {
-    guard let color = UIColor(hexString: hexString, transparency: transparency) else {
-        return UIColor.red
-    }
-    return color
 }
 
 public func fz_RGBAColor(r: CGFloat,g: CGFloat,b: CGFloat, a: CGFloat = 1.0) -> UIColor {
